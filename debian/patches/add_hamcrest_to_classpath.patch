@@ -1,0 +1,12 @@
+Index: cmdreader/build.xml
+===================================================================
+--- cmdreader.orig/build.xml
++++ cmdreader/build.xml
+@@ -108,6 +108,7 @@ and finally call CmdReader.of(ThatClass.
+ 		<javac destdir="build/prog" target="1.5" source="1.5" includeantruntime="false">
+ 			<src path="src" />
+ 			<classpath refid="build.path" />
++            <classpath location="/usr/share/java/hamcrest-all.jar"/>
+ 		</javac>
+ 	</target>
+ 	

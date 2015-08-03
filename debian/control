@@ -1,0 +1,17 @@
+Source: cmdreader
+Section: java
+Priority: optional
+Maintainer: Komal Sukhani <komaldsukhani@gmail.com>
+Build-Depends: debhelper (>= 9), junit4 (>=4.8.12), default-jdk, ant, libhamcrest-java
+Standards-Version: 3.9.6
+Homepage: https://github.com/rzwitserloot/com.zwitserloot.cmdreader
+#Vcs-Git: git://anonscm.debian.org/collab-maint/com.zwitserloot.cmdreader.git
+#Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/com.zwitserloot.cmdreader.git;a=summary
+
+Package: cmdreader
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Library that parses command line arguments
+ Parses command line arguments. The CmdReader can turn strings like
+ -fmv /foo/bar /bar/baz --color=white *.xyzzy *.cheese
+ into something that easier to work with programatically. 
