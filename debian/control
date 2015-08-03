@@ -5,8 +5,8 @@ Maintainer: Komal Sukhani <komaldsukhani@gmail.com>
 Build-Depends: debhelper (>= 9), junit4 (>=4.8.12), default-jdk, ant, libhamcrest-java
 Standards-Version: 3.9.6
 Homepage: https://github.com/rzwitserloot/com.zwitserloot.cmdreader
-#Vcs-Git: git://anonscm.debian.org/collab-maint/com.zwitserloot.cmdreader.git
-#Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/com.zwitserloot.cmdreader.git;a=summary
+Vcs-Git: git://anonscm.debian.org/pkg-java/cmdreader.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-java/cmdreader.git
 
 Package: cmdreader
 Architecture: any
