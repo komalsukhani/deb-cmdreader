@@ -2,3 +2,4 @@ cmdreader.debhelper.log
 cmdreader.substvars
 cmdreader/
 files
+patches/add_hamcrest.patch
