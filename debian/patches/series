@@ -2,4 +2,4 @@ replace_ipp_with_ivy.patch
 use_local_artifacts.patch
 add_mkdir_command.patch
 set_antruntime.patch
-add_hamcrest.patch
+add_hamcrest_to_classpath.patch
