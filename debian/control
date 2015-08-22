@@ -1,7 +1,8 @@
 Source: cmdreader
 Section: java
 Priority: optional
-Maintainer: Komal Sukhani <komaldsukhani@gmail.com>
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Komal Sukhani <komaldsukhani@gmail.com>
 Build-Depends: debhelper (>= 9), junit4 (>=4.8.12), default-jdk, ant, libhamcrest-java, ivy
 Standards-Version: 3.9.6
 Homepage: https://github.com/rzwitserloot/com.zwitserloot.cmdreader
